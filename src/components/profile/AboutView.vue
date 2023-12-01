@@ -16,7 +16,7 @@
                 </div>
                 <div class=" flex-1 p-4">
                     <h2 class="font-bold text-2xl mb-4">Mi Biografía</h2>
-                    <p class="text-gray-500 text-justify">Soy Ingeniero en Sistemas que me he dedicado al desarrollo de software desde hace más de dos años en el campo laboral. He trabajado con tecnologías como React, Vue, Node, Nest y Laravel para realizar mis proyectos. Me considero una persona muy sociable y disfruto escuchar y ser escuchado por los demás. Siempre estoy en constante aprendizaje y actualmente explorando el mundo de la nube y su automatización para implementar aplicaciones de manera más eficiente.</p>
+                    <p class="text-gray-500 text-justify">Soy Ingeniero en Sistemas que me he dedicado al desarrollo de software desde hace más de 5 años en el campo laboral. He trabajado con tecnologías como React, Vue, Node, Nest y Laravel para realizar mis proyectos. Me considero una persona muy sociable y disfruto escuchar y ser escuchado por los demás. Siempre estoy en constante aprendizaje y actualmente explorando el mundo de la nube y su automatización para implementar aplicaciones de manera más eficiente.</p>
                     <div class="border-2 border-gray-700 rounded-lg flex mt-8 mb-6">
                         <div class="p-7 flex-1">
                             <div>
