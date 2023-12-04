@@ -9,7 +9,9 @@
         </div>
       </div>
       <figure class="bg-yellow-300">
-        <img src="./../../../public/assets/folio.jpg" alt="">
+        <img :src="require(`@/assets/folio.jpg`)" alt="Folio">
+        <img src="/assets/folio.jpg" alt="Folio">
+        <!-- :src="require(`@/assets/${img}`)" -->
         <!-- <img src="./../../assets/folio.jpg" alt=""> -->
       </figure>
     </section>
