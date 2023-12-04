@@ -47,7 +47,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="bg-c_primary font-bold text-2xl inline-block px-6 py-3 rounded-2xl">
+                    <div class="bg-c_primary font-bold text-2xl inline-block px-6 py-3 rounded-2xl" @click="descargarArchivo">
                         Descargar CV
                     </div>
                 </div>
@@ -62,8 +62,25 @@ import { defineComponent } from 'vue'
 export default defineComponent({
     setup () {
         
-        
-        return {}
+        const descargarArchivo = () => {
+            // Reemplaza 'URL_DEL_ARCHIVO' con la URL de tu archivo
+            const urlDelArchivo = 'https://cristiana123.github.io/Profile/CV-CRISTIAN+CHIPANA-Software+Developer.pdf';
+            
+            // Crea un enlace temporal
+            const enlaceTemporal = document.createElement('a');
+            enlaceTemporal.href = urlDelArchivo;
+            
+            // Asigna el atributo 'download' para indicar la descarga
+            enlaceTemporal.download = 'CV-CRISTIAN+CHIPANA-Software+Developer.pdf';
+            
+            // Simula un clic en el enlace para iniciar la descarga
+            document.body.appendChild(enlaceTemporal);
+            enlaceTemporal.click();
+            document.body.removeChild(enlaceTemporal);
+        }
+        return {
+            descargarArchivo
+        }
     }
 })
 </script>
