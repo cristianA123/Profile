@@ -1,7 +1,7 @@
 <template>
-    <div class="container mx-auto flex items-center justify-center p-4 flex-col">
+    <div class="container mx-auto flex items-center justify-center p-4 flex-col" id="proyects">
         <h1 class="text-5xl font-bold my-16">Proyectos</h1>
-        <div class=" grid grid-cols-4 gap-10">
+        <div class="grid grid-cols-4 gap-10 mb-10">
             <div 
               v-for="proyect in proyects"
               :key="proyect.title"
@@ -28,6 +28,11 @@
             </div>
         </div>
         
+        <div class="">
+          <p class="text-c_primary text-lg font-semibold mb-4">
+            Ver más proyectos <a class="font-bold hover:underline text-blue-500" href="https://github.com/cristianA123" target="_blank">Ir a GitHub</a>
+          </p>
+        </div>
     </div>
 </template>
 

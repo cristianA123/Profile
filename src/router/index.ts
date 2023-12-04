@@ -3,7 +3,7 @@ import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 
 import AuthLayout from './../layouts/AuthLayout.vue'
 import ProfileView from '../views/ProfileView.vue'
-import EmployeeView from '../views/EmployeeView.vue'
+// import EmployeeView from '../views/EmployeeView.vue'
 
 
 
@@ -19,11 +19,11 @@ const routes: Array<RouteRecordRaw> = [
           component: ProfileView,
           meta: { title: 'Home' }
         },
-        {
-          path: '/home',
-          component: EmployeeView,
-          meta: { title: 'Home' }
-        }
+        // {
+        //   path: '/home',
+        //   component: EmployeeView,
+        //   meta: { title: 'Home' }
+        // }
       ]
     },
     {

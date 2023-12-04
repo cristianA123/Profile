@@ -1,5 +1,5 @@
 <template>
-    <section class="container mx-auto flex items-center justify-evenly p-4 gap-10">
+    <section class="container mx-auto flex items-center justify-evenly p-4 gap-10" id="home">
       <div class="flex flex-col">
         <h1 class="text-7xl font-bold">Cristian A. </h1>
         <span class="text-7xl text-c_primary font-bold mb-4">Chipana Huaman</span>
@@ -9,10 +9,7 @@
         </div>
       </div>
       <figure class="bg-yellow-300">
-        <img :src="require(`@/assets/folio.jpg`)" alt="Folio">
         <img src="@/assets/folio.jpg" alt="Folio">
-        <!-- :src="require(`@/assets/${img}`)" -->
-        <!-- <img src="./../../assets/folio.jpg" alt=""> -->
       </figure>
     </section>
   </template>

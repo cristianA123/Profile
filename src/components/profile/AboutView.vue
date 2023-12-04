@@ -1,7 +1,7 @@
 <template>
-    <div class="container mx-auto flex items-center justify-center p-4">
+    <div class="container mx-auto flex items-center justify-center p-4" id="about">
         <div>
-            <h1 class="font-bold text-5xl text-center my-16">Un desarrollador apasionado que ama codificar. </h1>
+            <h1 class="font-bold text-5xl text-center my-16">Programando con pasión.</h1>
             <div class="flex gap-8 items-center justify-center">
                 <div class="p-4">
                     <figure class="flex justify-center items-center">

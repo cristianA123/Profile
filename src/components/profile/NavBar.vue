@@ -1,18 +1,19 @@
 <template>
   <nav class="">
     <div class="container mx-auto flex items-center justify-between p-4">
-      <router-link to="/" class="text-white text-2xl font-bold">😁...🌲</router-link>
+      <a href="#seccion1" class="text-white text-2xl font-bold">😁...🌲</a>
       <div class="space-x-4 flex items-center">
-        <router-link to="/" class="font-medium p-4">Home</router-link>
-        <router-link to="/eventos" class="font-medium p-4">About</router-link>
-        <router-link to="/servicio" class="font-medium p-4">Service</router-link>
-        <router-link to="/portafolio" class="font-medium p-4">Portfolio</router-link>
-        <router-link to="/contacto" class="font-medium p-4">Contact</router-link>
+        <a href="#home" class="font-medium p-4">Home</a>
+        <a href="#about" class="font-medium p-4">About</a>
+        <a href="#skils" class="font-medium p-4">Skils</a>
+        <a href="#proyects" class="font-medium p-4">Proyects</a>
+        <a href="#service" class="font-medium p-4">Service</a>
+        <a href="#seccion1" class="font-medium p-4">Contact</a>
         <span class="mx-2">|</span>
-        <router-link to="/contacto" class="font-medium"><i class="fab fa-facebook-f"></i></router-link>
-        <router-link to="/contacto" class="font-medium"><i class="fab fa-twitter"></i></router-link>
-        <router-link to="/contacto" class="font-medium"><i class="fab fa-linkedin-in"></i></router-link>
-        <router-link to="/contacto" class="font-medium"><i class="fab fa-instagram"></i></router-link>
+        <a href="https://github.com/cristianA123" class="font-medium" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/cristian-chipana-huaman/" class="font-medium" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="" class="font-medium" target="_blank"><i class="fab fa-twitter"></i></a>
+        <!-- <a href="" class="font-medium" target="_blank"><i class="fab fa-instagram"></i></a> -->
       </div>
     </div>
   </nav>

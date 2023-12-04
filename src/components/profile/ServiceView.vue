@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto flex items-center justify-center p-4 flex-col">
+    <div class="container mx-auto flex items-center justify-center p-4 flex-col" id="service">
         <h1 class="text-5xl font-bold my-16">Lo que hago por mis clientes</h1>
         <div class="grid grid-cols-3 gap-5 px-40">
             <div 
