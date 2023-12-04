@@ -4,12 +4,12 @@
         <div class="grid grid-cols-3 gap-5 px-40">
             <div 
                 v-for="service in services" :key="service.title" 
-                class="px-16 py-9 flex justify-center items-center flex-col bg-c_secondary rounded-2xl hover:bg-c_secondary_hover"
+                class="px-16 pt-9 pb-6 flex justify-center items-center flex-col bg-c_secondary rounded-2xl hover:bg-c_secondary_hover"
             >
-                <i :class="`${service.icon} text-8xl mb-12 text-c_primary hover:text-white`"></i>
+                <i :class="`${service.icon} text-6xl mb-7 text-c_primary hover:text-white`"></i>
                 <h4 class="text-xl font-bold mb-4">{{ service.title }}</h4>
                 <ul class="text-gray-500 list-disc">
-                    <li v-for="content in service.contents" :key="content">{{ content }}</li>
+                    <li class="text-sm" v-for="content in service.contents" :key="content">{{ content }}</li>
                 </ul>
             </div>   
         </div>

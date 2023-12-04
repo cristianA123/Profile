@@ -1,8 +1,7 @@
-# maps-app
+# PROFILE
 
 ## Use: 
 * TypeScript
-* MapBox
 * Vuex
 * Composables
 

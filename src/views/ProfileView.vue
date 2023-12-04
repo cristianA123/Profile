@@ -4,6 +4,7 @@
         <HomeComponent />
         <AboutView />
         <!-- <SkilsView /> -->
+        <PortfolioView />
         <ServiceView />
     </div>
 </template>
@@ -15,6 +16,7 @@ import  HomeComponent  from '@/components/profile/HomeComponent.vue'
 import  AboutView  from '@/components/profile/AboutView.vue'
 // import  SkilsView  from '@/components/profile/SkilsView.vue'
 import  ServiceView  from '@/components/profile/ServiceView.vue'
+import  PortfolioView  from '@/components/profile/PortfolioView.vue'
 
 export default defineComponent({
     name: 'ProfileView',
@@ -24,6 +26,7 @@ export default defineComponent({
         AboutView,
         // SkilsView,
         ServiceView,
+        PortfolioView,
     },
     setup () {
         
