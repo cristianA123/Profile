@@ -9,7 +9,8 @@
         </div>
       </div>
       <figure class="bg-yellow-300">
-        <img src="./../../assets/folio.jpg" alt="">
+        <img src="./../../../public/assets/folio.jpg" alt="">
+        <!-- <img src="./../../assets/folio.jpg" alt=""> -->
       </figure>
     </section>
   </template>
