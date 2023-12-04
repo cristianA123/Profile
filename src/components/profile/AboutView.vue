@@ -9,7 +9,7 @@
                     </figure>
                     <div class="flex justify-center items-center">
                         <div class="w-30 flex justify-center items-center border-l-8 border-c_primary">
-                            <p class="text-8xl font-bold mr-2">12</p>
+                            <p class="text-8xl font-bold mr-2">5</p>
                             <p class="text-2xl font-bold w-8">Años Exitosos</p>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="bg-c_primary font-bold text-2xl inline-block px-6 py-3 rounded-2xl" @click="descargarArchivo">
+                    <div class="bg-c_primary font-bold text-2xl inline-block px-6 py-3 rounded-2xl cursor-pointer" @click="descargarArchivo">
                         Descargar CV
                     </div>
                 </div>
